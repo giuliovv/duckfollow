@@ -9,8 +9,13 @@ Visual-goal navigation + CasADi MPC control loop for Duckietown.
 
 ## Install
 ```bash
+python3 -m venv .env
+source .env/bin/activate
+pip install -U pip setuptools wheel
 pip install -r requirements.txt
 ```
+
+If your machine is Python 3.8 (like Ubuntu 20.04), this setup is supported.
 
 ## Compatibility check
 ```bash
